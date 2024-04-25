@@ -10,7 +10,7 @@ import { SiStarship } from "react-icons/si";
 
 const Sidebar = () => {
   return (
-    <div className="w-[300px] p-5 bg-white border-r-2 min-h-screen flex flex-col justify-between">
+    <div className="w-[300px] p-5 bg-white border-r-2 max-h-screen flex flex-col justify-between">
         <div>
             <ul className="flex flex-col gap-2 text-sm">
                 <div className="flex gap-3 items-center">
@@ -72,7 +72,7 @@ const Sidebar = () => {
             <div className="border px-1 py-2 mb-3 text-slate-800 rounded-lg text-xs text-start">Current Plan: Free</div>
             <div className="flex items-center max-w-fit bg-red-50 border border-yellow-500 justify-between py-3 rounded-xl p-3 cursor-pointer px-1 text-xs">
                 <div className="flex items-center gap-4 justify-between">
-                <SiStarship className="text-yellow-600 ml-3 text-3xl"/>
+                <SiStarship className="text-yellow-600  text-3xl"/>
                 <div>
                     <p className="font-semibold">Upgraded to Pro</p>
                     <p className="text-slate-500">Get all features</p>
