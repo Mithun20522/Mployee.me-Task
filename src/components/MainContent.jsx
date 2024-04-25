@@ -1,5 +1,6 @@
 import React from 'react'
 import JobDetailsCard from './JobDetailsCard'
+import PageSwitchOptions from './PageSwitchOptions';
 
 const MainContent = () => {
   return (
@@ -11,6 +12,7 @@ const MainContent = () => {
             <JobDetailsCard percent={87} color={'yellow'}/>
             <JobDetailsCard percent={87} color={'yellow'}/>
         </div>
+        <PageSwitchOptions/>
     </div>
   )
 }
