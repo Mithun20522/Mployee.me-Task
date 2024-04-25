@@ -10,7 +10,7 @@ import { SiStarship } from "react-icons/si";
 
 const Sidebar = () => {
   return (
-    <div className="max-w-fit p-5 border-r-2 min-h-screen flex flex-col justify-between">
+    <div className="w-[300px] p-5 bg-white border-r-2 min-h-screen flex flex-col justify-between">
         <div>
             <ul className="flex flex-col gap-2 text-sm">
                 <div className="flex gap-3 items-center">
